@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "SiteConfig",
+  "version": "1.0",
+  "description": "Configure Locale and User Agent for Each Websites",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": [ "background.js" ]
+  }
+}
